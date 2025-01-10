@@ -1,0 +1,107 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling for the extension popup */
+body {
+  width: 300px;
+  height: 350px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f4f6; /* Light gray background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Header at the top */
+header {
+  background: #007bff; /* Bright, eye-catching color */
+  color: #fff;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Main title in the header */
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Container for the timer display */
+.timer-container {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The timer text display */
+#timer-display {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Controls container */
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Input field and label together */
+.input-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Styling for the label */
+.input-field label {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* The input box for minutes */
+#minutes {
+  width: 60px;
+  text-align: center;
+  font-size: 1rem;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Start button */
+.button {
+  cursor: pointer;
+  background: #28a745;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px 16px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  min-width: 100px;
+  text-align: center;
+}
+
+/* Hover effect for the button */
+.button:hover {
+  background: #218838;
+}
+
+/* Footer for status messages */
+footer#status {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Canvas Countdown Timer",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "A stylish and user-friendly countdown timer for Canvas activities",
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

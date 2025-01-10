@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Canvas Countdown Timer</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Canvas Timer</h1>
+    </header>
+
+    <div class="timer-container">
+      <!-- Main timer display -->
+      <div id="timer-display">00:00</div>
+    </div>
+
+    <div class="controls">
+      <div class="input-field">
+        <label for="minutes">Minutes:</label>
+        <input type="number" id="minutes" min="1" value="10" />
+      </div>
+      <button class="button" id="start-btn">Start</button>
+    </div>
+
+    <footer id="status"></footer>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
